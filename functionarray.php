@@ -1,6 +1,6 @@
 <?php
 $animals = array("panda", "aplaca", "boa");
-
+//add a git here
 function animalsList($animals)
 {
     sort($animals);
@@ -24,11 +24,11 @@ $animals = add($animals, 'Boa');
 animalsList($animals);
 
 echo "<br>";
-
+//added git here
 $cupcakeFlav = array("grasshopper"=>"The Grasshopper","maple"=>"Whiskey Maple Bacon",
     "carrot"=>"Carrot Walnut","caramel"=>"Salted Caramel Cupcake","velvet"=>"Red Velvet",
     "lemon"=>"Lemon Drop","tiramisu"=>"Tiramisu");
-
+//added git here
 function flavors($flav){
     foreach ($flav as $k => $v){
         echo "<input type='checkbox' name='flavors[]' value='$k'> $v<br>";
